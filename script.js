@@ -9,3 +9,13 @@ function getComputerChoice() {
         return "scissor";
     }
 }
+
+function getHumanChoice() {
+    let choice = prompt("Please input 'rock', 'paper', or 'scissor'");
+
+    if (choice == 'rock' || choice == 'paper' || choice == 'scissor') {
+        return choice;
+    } else {
+        return null;
+    }
+}
